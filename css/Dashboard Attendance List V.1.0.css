@@ -30,64 +30,6 @@ body{
 .container{
     display: flex;
   }
-nav{
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  height: 100vh;
-  left: 0;
-  width: 5.8rem;
-  background: #fff;
-  overflow: hidden;
-  transition: 1s;
-}
-nav:hover{
-  width: 17rem;
-  transition: all 0.7s ease;
-}
-.logo{
-  text-align: center;
-  display: flex;
-  margin: .5rem 0 0 0.5rem;
-  padding-bottom: 6rem;
-}
-
-.logo img{
-    margin-left: 1rem;
-  width: 2.8rem;
-  height: 2.8rem;
-
-}
-.logo span{
-    display: flex;
-    align-items: center;
-  font-weight: 900;
-  padding-left: 1.3rem;
-  font-size: 24px;
-  color: var(--color-logo);
-}
-.menu{
-    display: flex;
-    position: relative;
-    height: 4rem;
-    cursor: pointer;
-    margin-bottom: 1rem;
-}
-.menu span{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1.8rem;
-    font-size: 35px;
-    color: var(--color-dark);
-}
-.menu span:nth-child(2){
-    font-size: 18px;
-}
-
-.menu:hover{
-  background: var(--color-info-light);
-}
 
 /* MAin Section */
 .main{
@@ -104,72 +46,6 @@ nav:hover{
 .main .users{
   display: flex;
   justify-content: space-between;
-}
-.users .card{
-    width: 24%;
-  background: var(--color-white);
-  text-align: center;
-  border-radius: var(--border-radius-2);
-  padding: 10px;
-  box-shadow: var(--box-shadow);
-}
-.users .card:last-child{
-    margin-right: 0px;
-}
-.users .card img{
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
-  margin-top: 1rem;
-}
-.users .card h4{
-  text-transform: uppercase;
-  margin-bottom: 0.2rem;
-}
-.users .card p{
-  font-size: 12px;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-}
-details{
-    font-size: 12px;
-}
-.users .card .index{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 2rem 0 2rem;
-}
-.users .card .index p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2rem;
-    width: 3.5rem;
-    margin: 0.5rem;
-    border-radius: var(--border-radius-2);
-    background: var(--color-info-light);
-    color: var(--color-dark);
-    font-weight: 500;
-    cursor: pointer;
-}
-.users .card .index p:hover{
-    font-weight: 900;
-}
-.users .card button{
-  width: 100%;
-  margin-top: 3rem;
-  padding: 0.5rem;
-  cursor: pointer;
-  border-radius: var(--border-radius-2);
-  background: transparent;
-  color: var(--color-dark);
-  border: 1px solid var(--color-tabheader);
-}
-.users .card button:hover{
-  background: var(--color-tabheader);
-  color: var(--color-white);
-  transition: all 0.3s ease;
 }
 
 /*Attendance List serction  */
@@ -218,8 +94,3 @@ table thead tr{
 /* .table tbody tr:nth-of-type(even){
   background: rgba(0, 0, 0, 0.05);
 } */
-.table tbody tr:hover{
-    color: var(--color-info-dark);
-    transform: translateX(5px);
-    transition: all 0.3s ease;
-}
