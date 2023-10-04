@@ -33,7 +33,7 @@ body{
 
 /* MAin Section */
 .main{
-  position: relative;
+  position: fixed;
   padding: 1rem;
   padding-top: 0.9rem;
   width: 90%;
@@ -54,7 +54,7 @@ body{
   text-transform: capitalize;
 }
 .attendance-list{
-  width: 100%;
+  width: 85%;
   padding: 10px;
   margin-top: 10px;
   background: var(--color-white);
